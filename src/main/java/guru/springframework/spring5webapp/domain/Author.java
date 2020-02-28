@@ -13,7 +13,8 @@ public class Author {
     private String lastName;
     private Set<Book> books;
 
-    public Author(){}
+    public Author(){
+    }
 
     public Author(String firstName, String lastName, Set<Book> books) {
         this.firstName = firstName;
